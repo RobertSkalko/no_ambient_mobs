@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "no_more_ambient_mobs",
+  "version": "1.0.0",
+  "name": "No Ambient Mobs",
+  "description": "Removes fish mobs, bats etc",
+  "authors": [
+    "mcrobertx22"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.robertx22.no_more_ambient_mobs.main.CommonInit"
+    ]
+  },
+  "mixins": [
+    "no_more_ambient_mobs.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.16.2",
+    "fabricloader": ">=0.9.0"
+  },
+  "suggests": {
+  }
+}
