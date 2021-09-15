@@ -6,6 +6,7 @@ public class CommonInit implements ModInitializer {
 
     @Override
     public void onInitialize() {
+
         System.out.print("Ambient Mobs disabled. They will no longer spawn");
     }
 }
